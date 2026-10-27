@@ -20,7 +20,7 @@ if not discord.opus.is_loaded():
 
 TOKEN = os.getenv("TOKEN") or TOKEN
 
-class LAST SOULBot(commands.Bot):
+class LAST_SOULBot(commands.Bot):
 
     def __init__(self):
         intents = discord.Intents.all()
@@ -249,7 +249,7 @@ class LAST SOULHelp(commands.HelpCommand):
 # BOT INSTANCE & EVENTS
 # ============================================================
 
-bot = LAST SOULBot()
+bot = LAST_SOULBot()
 
 # Replace Discord's default help command
 bot.help_command = LAST SOULHelp()
