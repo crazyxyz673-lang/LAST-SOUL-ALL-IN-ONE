@@ -97,7 +97,7 @@ class LAST_SOULBot(commands.Bot):
 # CUSTOM LAST SOUL HELP COMMAND
 # ============================================================
 
-class LAST SOULHelp(commands.HelpCommand):
+class LAST_SOULHelp(commands.HelpCommand):
 
     async def send_bot_help(self, mapping):
 
@@ -252,7 +252,7 @@ class LAST SOULHelp(commands.HelpCommand):
 bot = LAST_SOULBot()
 
 # Replace Discord's default help command
-bot.help_command = LAST SOULHelp()
+bot.help_command = LAST_SOULHelp()
 
 
 @bot.event
