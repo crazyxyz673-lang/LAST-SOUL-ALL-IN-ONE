@@ -80,10 +80,10 @@ class LAST SOULBot(commands.Bot):
         print("✅ tts.py loaded", flush=True)
            
         guild_ids = [
-            1531880443383906426,  # Server 1
-            1564336065102225451,
-            1552698925352484955,
-               
+           1535351563982348321,  # Server 1
+           
+           
+              
         ]
 
         for guild_id in guild_ids:
