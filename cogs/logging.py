@@ -96,7 +96,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Logging System"
+            text="LAST SOUL SECURITY • Logging System"
         )
 
         await ctx.send(
@@ -203,7 +203,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Message Logs"
+            text="LAST SOUL SECURITY • Message Logs"
         )
 
         await self.send_log(
@@ -295,7 +295,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Message Logs"
+            text="LAST SOUL SECURITY • Message Logs"
         )
 
         await self.send_log(
@@ -358,7 +358,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Member Logs"
+            text="LAST SOUL SECURITY • Member Logs"
         )
 
         await self.send_log(
@@ -421,7 +421,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Member Logs"
+            text="LAST SOUL SECURITY • Member Logs"
         )
 
         await self.send_log(
@@ -475,7 +475,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Moderation Logs"
+            text="LAST SOUL SECURITY • Moderation Logs"
         )
 
         await self.send_log(
@@ -529,7 +529,7 @@ class Logging(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Moderation Logs"
+            text="LAST SOUL SECURITY • Moderation Logs"
         )
 
         await self.send_log(

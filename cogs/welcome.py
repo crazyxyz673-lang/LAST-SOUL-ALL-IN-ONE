@@ -4,7 +4,7 @@ from discord.ext import commands
 
 
 # ============================================================
-# HSL ULTRA BRUTAL WELCOME SYSTEM (PER-SERVER)
+# LAST SOUL ULTRA BRUTAL WELCOME SYSTEM (PER-SERVER)
 # ============================================================
 
 class Welcome(commands.Cog):
@@ -35,7 +35,7 @@ class Welcome(commands.Cog):
 
         self.db.commit()
 
-        # Default HSL GIF
+        # Default LAST SOUL GIF
         self.default_gif = (
             "https://media3.giphy.com/media/"
             "v1.Y2lkPTc5MGI3NjExZ3RqemR3c3A0MHl3NWw1NHE4a2FjdWVkdDdqdXppaXdxdHhobGF5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/"
@@ -60,7 +60,7 @@ class Welcome(commands.Cog):
             "☠️ **WARRIOR FALLEN**\n\n"
             "🩸 **{username}** has deserted the battlefield.\n\n"
             "👥 **Remaining Force:** `# {count}`\n\n"
-            "🔥 **ONCE HSL, ALWAYS HSL.**"
+            "🔥 **ONCE LAST SOUL, ALWAYS LAST SOUL.**"
         )
 
     # ========================================================
@@ -206,7 +206,7 @@ class Welcome(commands.Cog):
             role = member.guild.get_role(role_id)
             if role:
                 try:
-                    await member.add_roles(role, reason="HSL System - Auto Role")
+                    await member.add_roles(role, reason="LAST SOUL System - Auto Role")
                     print(f"✅ Auto role given to {member}")
                 except Exception as e:
                     print(f"❌ Auto Role Error: {e}")
@@ -291,7 +291,7 @@ class Welcome(commands.Cog):
             embed.set_image(url=settings["banner_gif"])
 
         embed.set_footer(
-            text=f"🔥 {member.guild.name.upper()} • HSL SYSTEM",
+            text=f"🔥 {member.guild.name.upper()} • LAST SOUL SYSTEM",
             icon_url=server_icon
         )
 
@@ -443,7 +443,7 @@ class Welcome(commands.Cog):
             embed.set_image(url=settings["banner_gif"])
 
         embed.set_footer(
-            text=f"🔥 {ctx.guild.name.upper()} • HSL SYSTEM",
+            text=f"🔥 {ctx.guild.name.upper()} • LAST SOUL SYSTEM",
             icon_url=server_icon
         )
 

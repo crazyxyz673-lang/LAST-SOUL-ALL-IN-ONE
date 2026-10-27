@@ -199,7 +199,7 @@ class Warnings(commands.Cog):
                 )
 
                 embed.set_footer(
-                    text="HSL SECURITY • Automatic Moderation"
+                    text="LAST SOUL SECURITY • Automatic Moderation"
                 )
 
                 await ctx.send(
@@ -255,7 +255,7 @@ class Warnings(commands.Cog):
                 )
 
                 log_embed.set_footer(
-                    text="HSL SECURITY • Warning System"
+                    text="LAST SOUL SECURITY • Warning System"
                 )
 
                 await self.send_log(
@@ -357,7 +357,7 @@ class Warnings(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Warning System"
+            text="LAST SOUL SECURITY • Warning System"
         )
 
         await ctx.send(
@@ -406,7 +406,7 @@ class Warnings(commands.Cog):
         )
 
         log_embed.set_footer(
-            text="HSL SECURITY • Warning System"
+            text="LAST SOUL SECURITY • Warning System"
         )
 
         await self.send_log(

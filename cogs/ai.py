@@ -12,7 +12,7 @@ from google.genai import types
 
 
 # ============================================================
-# HSL-CORP GEMINI AI SYSTEM
+# LAST SOUL-CORP GEMINI AI SYSTEM
 # ============================================================
 
 DATA_FILE = "ai_data.json"

@@ -16,7 +16,7 @@ class TicketPanel(discord.ui.View):
         label="Create Ticket",
         emoji="🎫",
         style=discord.ButtonStyle.primary,
-        custom_id="hsl_create_ticket"
+        custom_id="LAST SOUL_create_ticket"
     )
     async def create_ticket(
         self,
@@ -93,7 +93,7 @@ class TicketPanel(discord.ui.View):
         # Ticket embed
         embed = discord.Embed(
 
-            title="🎫 HSL SUPPORT",
+            title="🎫 LAST SOUL SUPPORT",
 
             description=(
                 f"Welcome {user.mention}!\n\n"
@@ -120,7 +120,7 @@ class TicketPanel(discord.ui.View):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Support System"
+            text="LAST SOUL SECURITY • Support System"
         )
 
         await channel.send(
@@ -152,7 +152,7 @@ class TicketControls(discord.ui.View):
         label="Close Ticket",
         emoji="🔒",
         style=discord.ButtonStyle.secondary,
-        custom_id="hsl_close_ticket"
+        custom_id="LAST SOUL_close_ticket"
     )
     async def close_ticket(
         self,
@@ -219,7 +219,7 @@ class TicketControls(discord.ui.View):
         label="Claim",
         emoji="🙋",
         style=discord.ButtonStyle.success,
-        custom_id="hsl_claim_ticket"
+        custom_id="LAST SOUL_claim_ticket"
     )
     async def claim_ticket(
         self,
@@ -260,7 +260,7 @@ class ClosedTicketControls(discord.ui.View):
         label="Delete Ticket",
         emoji="🗑️",
         style=discord.ButtonStyle.danger,
-        custom_id="hsl_delete_ticket"
+        custom_id="LAST SOUL_delete_ticket"
     )
     async def delete_ticket(
         self,
@@ -306,7 +306,7 @@ class Ticket(commands.Cog):
 
         embed = discord.Embed(
 
-            title="🎫 HSL SUPPORT CENTER",
+            title="🎫 LAST SOUL SUPPORT CENTER",
 
             description=(
                 "**Need assistance?**\n\n"
@@ -331,7 +331,7 @@ class Ticket(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Support System"
+            text="LAST SOUL SECURITY • Support System"
         )
 
         await ctx.send(

@@ -9,7 +9,7 @@ from discord.ext import commands
 
 
 # ============================================================
-# HSL-CORP SECURITY
+# LAST SOUL-CORP SECURITY
 # ============================================================
 
 DATA_FILE = "security_data.json"
@@ -126,7 +126,7 @@ class Security(commands.Cog):
         # guild_id:user_id -> last message
         self.duplicate_cache = {}
 
-        print("🛡️ HSL-CORP Security loaded")
+        print("🛡️ LAST SOUL-CORP Security loaded")
 
 
     # ========================================================
@@ -598,7 +598,7 @@ class Security(commands.Cog):
                         "```ansi\n"
                         "\u001b[1;32m"
                         "╔══════════════════════════════╗\n"
-                        "║       HSL-CORP SECURITY      ║\n"
+                        "║       LAST SOUL-CORP SECURITY      ║\n"
                         "╠══════════════════════════════╣\n"
                         "║                              ║\n"
                         f"║       {frame} SYSTEM CHECK      ║\n"
@@ -679,7 +679,7 @@ class Security(commands.Cog):
                             "```ansi\n"
                             "\u001b[1;32m"
                             "╔══════════════════════════════╗\n"
-                            "║       HSL-CORP SECURITY      ║\n"
+                            "║       LAST SOUL-CORP SECURITY      ║\n"
                             "╠══════════════════════════════╣\n"
                             f"{old_lines}"
                             "║                              ║\n"
@@ -768,7 +768,7 @@ class Security(commands.Cog):
 
     @commands.hybrid_command(
         name="antinukeenable",
-        description="Enable HSL-CORP security"
+        description="Enable LAST SOUL-CORP security"
     )
     @commands.guild_only()
     async def antinukeenable(self, ctx):
@@ -788,7 +788,7 @@ class Security(commands.Cog):
 
     @commands.hybrid_command(
         name="antinukedisable",
-        description="Disable HSL-CORP security"
+        description="Disable LAST SOUL-CORP security"
     )
     @commands.guild_only()
     async def antinukedisable(self, ctx):
@@ -808,7 +808,7 @@ class Security(commands.Cog):
 
     @commands.hybrid_command(
         name="automodstatus",
-        description="Show HSL-CORP security status"
+        description="Show LAST SOUL-CORP security status"
     )
     @commands.guild_only()
     async def automodstatus(self, ctx):
@@ -825,7 +825,7 @@ class Security(commands.Cog):
             )
 
         embed = discord.Embed(
-            title="🛡️ HSL-CORP SECURITY STATUS",
+            title="🛡️ LAST SOUL-CORP SECURITY STATUS",
             color=discord.Color.dark_green()
         )
 
@@ -955,7 +955,7 @@ class Security(commands.Cog):
 
     @commands.hybrid_command(
         name="say",
-        description="Send a message as HSL-CORP"
+        description="Send a message as LAST SOUL-CORP"
     )
     @commands.guild_only()
     async def say(self, ctx, *, text: str):
@@ -1122,7 +1122,7 @@ class Security(commands.Cog):
         )
 
         embed = discord.Embed(
-            title="🤬 HSL-CORP ANTI-GALI",
+            title="🤬 LAST SOUL-CORP ANTI-GALI",
             description=description,
             color=discord.Color.red()
         )
@@ -1361,7 +1361,7 @@ class Security(commands.Cog):
                 )
 
         embed = discord.Embed(
-            title="🤖 HSL-CORP BOT WHITELIST",
+            title="🤖 LAST SOUL-CORP BOT WHITELIST",
             description="\n".join(lines),
             color=discord.Color.green()
         )
@@ -1437,7 +1437,7 @@ class Security(commands.Cog):
                     )
 
             embed = discord.Embed(
-                title="🎵 HSL-CORP MUSIC WHITELIST",
+                title="🎵 LAST SOUL-CORP MUSIC WHITELIST",
                 description="\n".join(lines),
                 color=discord.Color.green()
             )
@@ -1591,7 +1591,7 @@ class Security(commands.Cog):
 
             await member.add_roles(
                 role,
-                reason=f"HSL Security giverole by {ctx.author}"
+                reason=f"LAST SOUL Security giverole by {ctx.author}"
             )
 
             await ctx.send(
@@ -1669,7 +1669,7 @@ class Security(commands.Cog):
 
             await member.remove_roles(
                 role,
-                reason=f"HSL Security removerole by {ctx.author}"
+                reason=f"LAST SOUL Security removerole by {ctx.author}"
             )
 
             await ctx.send(
@@ -1843,7 +1843,7 @@ class Security(commands.Cog):
         try:
 
             await member.kick(
-                reason="HSL-CORP Security - Unauthorized bot"
+                reason="LAST SOUL-CORP Security - Unauthorized bot"
             )
 
             print(
@@ -1900,7 +1900,7 @@ class Security(commands.Cog):
                 await member.remove_roles(
                     role,
                     reason=(
-                        "HSL-CORP Security - "
+                        "LAST SOUL-CORP Security - "
                         "Unauthorized bot addition"
                     )
                 )
@@ -2045,7 +2045,7 @@ class Security(commands.Cog):
                 await message.author.timeout(
                     timedelta(minutes=10),
                     reason=(
-                        "HSL-CORP Anti-Gali - "
+                        "LAST SOUL-CORP Anti-Gali - "
                         "Blocked word"
                     )
                 )
@@ -2265,7 +2265,7 @@ class Security(commands.Cog):
 
                     await message.author.timeout(
                         timedelta(minutes=10),
-                        reason="HSL Anti-Link"
+                        reason="LAST SOUL Anti-Link"
                     )
 
                 except Exception:
@@ -2414,7 +2414,7 @@ class Security(commands.Cog):
         )
 
         print(
-            "🛡️ HSL-CORP SECURITY ONLINE"
+            "🛡️ LAST SOUL-CORP SECURITY ONLINE"
         )
 
         print(

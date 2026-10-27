@@ -1,4 +1,4 @@
-print("🔥🔥🔥 HSL MAIN.PY LOADED - AI VERSION 🔥🔥🔥", flush=True)
+print("🔥🔥🔥 LAST SOUL MAIN.PY LOADED - AI VERSION 🔥🔥🔥", flush=True)
 import os
 import discord
 from discord.ext import commands
@@ -20,7 +20,7 @@ if not discord.opus.is_loaded():
 
 TOKEN = os.getenv("TOKEN") or TOKEN
 
-class HSLBot(commands.Bot):
+class LAST SOULBot(commands.Bot):
 
     def __init__(self):
         intents = discord.Intents.all()
@@ -34,7 +34,7 @@ class HSLBot(commands.Bot):
               
     async def setup_hook(self):
         
-        print("🚀 HSL SETUP_HOOK STARTED", flush=True)
+        print("🚀 LAST SOUL SETUP_HOOK STARTED", flush=True)
         print("🔄 Loading utility.py...")
         await self.load_extension("cogs.utility")
         print("✅ utility.py loaded")
@@ -81,7 +81,8 @@ class HSLBot(commands.Bot):
            
         guild_ids = [
             1531880443383906426,  # Server 1
-            
+            1564336065102225451,
+            1552698925352484955,
                
         ]
 
@@ -93,20 +94,20 @@ class HSLBot(commands.Bot):
 
 
 # ============================================================
-# CUSTOM HSL HELP COMMAND
+# CUSTOM LAST SOUL HELP COMMAND
 # ============================================================
 
-class HSLHelp(commands.HelpCommand):
+class LAST SOULHelp(commands.HelpCommand):
 
     async def send_bot_help(self, mapping):
 
         ctx = self.context
 
         embed = discord.Embed(
-            title="👑 HSL & CORPORATION",
+            title="👑 LAST SOUL & CORPORATION",
             description=(
                 "━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-                "🛡️ **HSL SECURITY BOT**\n"
+                "🛡️ **LAST SOUL SECURITY BOT**\n"
                 "━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
                 "Use `!help <command>` for detailed information.\n"
                 "Use `!help <category>` to view category commands."
@@ -173,7 +174,7 @@ class HSLHelp(commands.HelpCommand):
         )
 
         embed.set_footer(
-            text="HSL & CORPORATION • Command Center"
+            text="LAST SOUL & CORPORATION • Command Center"
         )
 
         await ctx.send(
@@ -203,7 +204,7 @@ class HSLHelp(commands.HelpCommand):
             )
 
         embed.set_footer(
-            text="HSL & CORPORATION • Command Help"
+            text="LAST SOUL & CORPORATION • Command Help"
         )
 
         await self.context.send(
@@ -236,7 +237,7 @@ class HSLHelp(commands.HelpCommand):
             )
 
         embed.set_footer(
-            text="HSL & CORPORATION • Command Center"
+            text="LAST SOUL & CORPORATION • Command Center"
         )
 
         await self.context.send(
@@ -248,10 +249,10 @@ class HSLHelp(commands.HelpCommand):
 # BOT INSTANCE & EVENTS
 # ============================================================
 
-bot = HSLBot()
+bot = LAST SOULBot()
 
 # Replace Discord's default help command
-bot.help_command = HSLHelp()
+bot.help_command = LAST SOULHelp()
 
 
 @bot.event

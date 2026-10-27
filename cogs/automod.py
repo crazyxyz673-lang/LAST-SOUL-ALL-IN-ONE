@@ -520,7 +520,7 @@ class AutoMod(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • AutoMod Protection"
+            text="LAST SOUL SECURITY • AutoMod Protection"
         )
 
         return embed
@@ -688,7 +688,7 @@ class AutoMod(commands.Cog):
 
                     timed_out = await self.timeout_member(
                         message.author,
-                        "HSL AutoMod: Unauthorized link"
+                        "LAST SOUL AutoMod: Unauthorized link"
                     )
 
                     if timed_out:
@@ -781,7 +781,7 @@ class AutoMod(commands.Cog):
 
                     timed_out = await self.timeout_member(
                         message.author,
-                        "HSL AutoMod: Inappropriate language"
+                        "LAST SOUL AutoMod: Inappropriate language"
                     )
 
                     if timed_out:
@@ -873,7 +873,7 @@ class AutoMod(commands.Cog):
 
                 timed_out = await self.timeout_member(
                     message.author,
-                    "HSL AutoMod: Spamming"
+                    "LAST SOUL AutoMod: Spamming"
                 )
 
                 if timed_out:
@@ -956,7 +956,7 @@ class AutoMod(commands.Cog):
 
                     timed_out = await self.timeout_member(
                         message.author,
-                        "HSL AutoMod: Repeated messages"
+                        "LAST SOUL AutoMod: Repeated messages"
                     )
 
                     if timed_out:
@@ -1194,7 +1194,7 @@ class AutoMod(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • AutoMod"
+            text="LAST SOUL SECURITY • AutoMod"
         )
 
         await interaction.response.send_message(
@@ -1385,7 +1385,7 @@ class AutoMod(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • AutoMod"
+            text="LAST SOUL SECURITY • AutoMod"
         )
 
         await interaction.response.send_message(
@@ -1444,7 +1444,7 @@ class AutoMod(commands.Cog):
         )
 
         embed = discord.Embed(
-            title="🛡️ HSL SECURITY",
+            title="🛡️ LAST SOUL SECURITY",
             description=(
                 "### SECURITY STATUS\n\n"
                 "━━━━━━━━━━━━━━━━━━━━"
@@ -1507,7 +1507,7 @@ class AutoMod(commands.Cog):
         )
 
         embed.set_footer(
-            text="HSL SECURITY • Protection System"
+            text="LAST SOUL SECURITY • Protection System"
         )
 
         await interaction.response.send_message(

@@ -14,7 +14,7 @@ import yt_dlp
 
 
 # =========================================================
-# HSL-CORP ULTRA FAST MUSIC SYSTEM
+# LAST SOUL-CORP ULTRA FAST MUSIC SYSTEM
 # =========================================================
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -126,7 +126,7 @@ FFMPEG_PATH = find_ffmpeg()
 # CONSTANTS
 # =========================================================
 
-HSL_GIF = (
+LAST SOUL_GIF = (
     "https://media3.giphy.com/media/"
     "v1.Y2lkPTc5MGI3NjExZ3RqemR3c3A0MHl3NWw1NHE4a2FjdWVkdDdqdXppaXdxdHhobGF5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/"
     "iBILBPeCHDVuELjOND/giphy.gif"
@@ -1659,7 +1659,7 @@ class MusicPlayer:
 
         embed = discord.Embed(
 
-            title="🎵 HSL-CORP MUSIC",
+            title="🎵 LAST SOUL-CORP MUSIC",
 
             description=(
                 "## 🎶 NOW PLAYING\n\n"
@@ -1698,11 +1698,11 @@ class MusicPlayer:
             )
 
         embed.set_thumbnail(
-            url=HSL_GIF
+            url=LAST SOUL_GIF
         )
 
         embed.set_footer(
-            text="HSL & CORPORATION • Music System"
+            text="LAST SOUL & CORPORATION • Music System"
         )
 
 
@@ -2275,7 +2275,7 @@ class Music(commands.Cog):
                     )
 
                 embed.set_thumbnail(
-                    url=HSL_GIF
+                    url=LAST SOUL_GIF
                 )
 
                 return await ctx.send(
@@ -2508,7 +2508,7 @@ class Music(commands.Cog):
 
         embed = discord.Embed(
 
-            title="📜 HSL-CORP MUSIC QUEUE",
+            title="📜 LAST SOUL-CORP MUSIC QUEUE",
 
             description="\n".join(lines),
 
@@ -2516,7 +2516,7 @@ class Music(commands.Cog):
         )
 
         embed.set_thumbnail(
-            url=HSL_GIF
+            url=LAST SOUL_GIF
         )
 
         await ctx.send(
